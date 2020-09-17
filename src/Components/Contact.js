@@ -8,7 +8,8 @@ class Contact extends Component {
          email: "",
          name:"",
          subject:"",
-         message:""
+         message:"",
+         status: true
       };
       this.submitForm = this.submitForm.bind(this);
 
@@ -32,14 +33,14 @@ class Contact extends Component {
      if (xhr.readyState !== XMLHttpRequest.DONE) return;
      if (xhr.status === 200) {
        form.reset();
-       this.setState({ status: "SUCCESS", 
+       this.setState({ status: true, 
                        email: "",
                        name:"",
                        subject:"",
                        message:""
                   });
      } else {
-       this.setState({ status: "ERROR" });
+       this.setState({ status: false });
      }
    };
    xhr.send(data);
@@ -80,7 +81,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form onSubmit={this.submitForm} action="https://formspree.io/xzbkpyyo" method="post" id="contactForm" name="contactForm">
+               <form onSubmit={this.submitForm} action="https://formspree.io/apikey" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -111,15 +112,7 @@ class Contact extends Component {
                   </div>
 					</fieldset>
 				   </form>
-            <div id="message-warning"> Error boy</div>
-            {this.state.status==="SUCCESS"}?
-				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
-           </div>:				   
-           <div id="message-error">
-                  <i className="fa fa-check"></i>Your message was could not be sent, please try again later<br />
-				   </div>
+               </div>
 
 
 
