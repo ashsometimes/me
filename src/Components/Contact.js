@@ -81,7 +81,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form onSubmit={this.submitForm} action="https://formspree.io/apikey" method="post" id="contactForm" name="contactForm">
+               <form onSubmit={this.submitForm} action="https://formspree.io/xzbkpyyo" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
