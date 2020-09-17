@@ -1,0 +1,148 @@
+{
+    "main": {
+        "name": "Aishwarya Sahoo",
+        "occupation": "CSE Undergad",
+        "description": "I'm a CSE Undergad and aspirant ML Engineer, currently pursuing my Bachelors at V.E.S. Institute Of Technology",
+        "employer": "V.E.S. Institute Of Technology, Mumbai",
+        "jobDescription": "2017-21",
+        "image": "profile_pic.png",
+        "bio": "Ever since I was a kid, I have always believed in Darwinian theory of natural selection, or better called—survival of the fittest. That's when I began my journey of trying to be the 'fittest'. I started coding during first year of my Bachelors, and loved it since the very start. After testing waters in full stack development, Android application development and Data Science, I realized I aspire to become an ML engineer. And thus began my expedition to constantly learn, grow and execute. In full stack development, my preference is a little partial to MERN stack, but I have worked in PHP, Django and Flask. I have also worked on a few projects in ML, and have a strong foundation of ML & DL algorithms. Beyond the life of computers and technology, I absolutely love writing (mostly short stories, blogs and poems) and reading. I also volunteer for an NGO named 'WeChange' where I teach little girls. With my pursuing degree in Computer Engineering, technical competencies — matched with successful internships, I have paved my way to the road of future, and I hope it would be a long (and smooth) journey ahead!",
+        "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
+        "email": "aishsahoo5@gmail.com",
+        "phone": "aishwaryasahoo652@gmail.com",
+        "address": {
+            "street": "Navi Mumbai",
+            "city": "Maharashtra",
+            "state": "India",
+            "zip": "410 206"
+        },
+        "website": "http://www.ashsometimes.github.io",
+        "resumedownload": "/resume.pdf",
+        "social": [{
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/aishwarya-b-sahoo",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github2",
+                "url": "http://gitlab.com/ashsometimes",
+                "className": "fa fa-github"
+            },
+            {
+                "name": "instagram",
+                "url": "http://instagram.com/aishwarya.sahooo",
+                "className": "fa fa-instagram"
+            },
+            {
+                "name": "github1",
+                "url": "http://github.com/ashsometimes",
+                "className": "fa fa-github"
+            },
+            {
+                "name": "medium",
+                "url": "http://medium.com/ashsometimes",
+                "className": "fa fa-medium"
+            }
+
+        ]
+    },
+    "resume": {
+        "skillmessage": "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
+        "education": [{
+                "school": "V.E.S. Intitute of Technology, Mumbai",
+                "degree": "Bachelors in Computer Science Engineering",
+                "graduated": "Expected April 2021",
+                "description": "At VESIT, I took my Bachelors in Computer Engineering, and achieved a much more thorough education in the underlying theory, concepts, and science behind more complex programming, software development and algorithm analysis. It is here that I discovered my passion for Deep Learning, scalable application programming (web and mobile), the security behind computer and application systems, and found that I have a knack for understanding and solving complex algorithms."
+            },
+            {
+                "school": "D.A.V. Public School, New Panvel",
+                "degree": "CBSE XII",
+                "graduated": "April 2017",
+                "description": "I attended D.A.V. Public School New Panvel for my almost 15 years, including kindergarten and elemetary scool. While here, I studied Mathematics including complex Calculus, Trigonometry, Statistics and Coordinate Geometry which helped me in building a strong foundation for Data Science and Deep Learning Algorithms."
+            }
+        ],
+        "work": [{
+                "company": "Tanmaya Computer",
+                "title": "Project Intern",
+                "years": "Mar 2020 - Present",
+                "description": "Tanmaya Computer was actually founded by my mother, Tapaswini Sahoo. I have worked with her on several projects in the domain of full stack development and Machine Learning. I have also volunteered to teach Python and Data Science. Since Mar 2020, I have started officially working with her, helping her with digital marketing, and taking a lead role in execution of the projects. I constantly grow with the fast-paced environment here, and continue to improve my techical competencies."
+            },
+            {
+                "company": "Edgistify, Thane",
+                "title": "Android Development Intern",
+                "years": "Jun 2019 - Jul 2019",
+                "description": "This was my very first internship, and I had to commmute in train to reach the office (: At Edgistify, I experienced the agile environment of a start-up, and I enjoyed the taste of hardwork and discipline a lot. I worked on a couple of projects like Data Acquisition Application and Tracking Application. Both were Android applications used by the Operations Team of the company, implemented using Android Studio (Java)"
+            },
+            {
+                "company": "VESIT Renaissance Cell",
+                "title": "Back End Intern",
+                "years": "Dec 2019 - Jan 2020",
+                "description": "Here I was in charge of various modules in the Admin Dashboard development for the project 'Disaster Management'. We develope a web-based application using PHP's framework Laravel for the back end and MySQL for the database. The application is used by an nonprofit organizatin 'Goonj' which provides relief to areas suffering from natural and manmade disasters."
+            }
+        ],
+        "skills": [{
+                "name": "Git",
+                "level": "90%"
+            },
+            {
+                "name": "Python",
+                "level": "80%"
+            },
+            {
+                "name": "React Js",
+                "level": "60%"
+            },
+            {
+                "name": "Tensorflow",
+                "level": "60%"
+            },
+
+            {
+                "name": "Node JS",
+                "level": "70%"
+            },
+            {
+                "name": "MongoDB",
+                "level": "90%"
+            },
+            {
+                "name": "Heroku",
+                "level": "90%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [{
+                "title": "Decentralized Energy Trading",
+                "category": "TE Project | Blockchain Technology » A blockchain based model for P2P trading of energy in a decentralized, secure was developed",
+                "image": "po1.png",
+                "url": "https://ijisrt.com/decentralized-energy-trading"
+            },
+            {
+                "title": "EHR Management System",
+                "category": "Database and Information Systems » Developed a MERN stack based web platform for creation of Electronic Health Records of patients and transfer of the records between Medical Providers and Patients ",
+                "image": "po2.png",
+                "url": "https://medrec-server.herokuapp.com/"
+            },
+            {
+                "title": "Association Between Genomic Clusters and Gliomas",
+                "category": "Deep Learning » Performed Quantification of tumor shape using DL Segmentation. Genomic subtypes of gliomas predicted from magnetic resonance images ",
+                "image": "po3.png",
+                "url": "https:/gitlab.com/ashsometimes"
+            },
+            {
+                "title": "Farmer’s Friend, The Digital Agriculture App",
+                "category": "Android Development » A mobile app that helps the farmers to keep a close tab on their crops. Implemented using IoT to check moisture level of the soil and other factors.",
+                "image": "po4.png",
+                "url": "https://gitlab.com/ashsometimes/farmers-friend"
+            }
+        ]
+    },
+    "testimonials": {
+        "testimonials": [{
+            "text": "I have had the opportunity to work with Tim on multiple occasions which has always been a pleasure. He is driven and motivated with a consistently positive attitude. Tim excels at communicating with others and is always willing to work hard until he solves the problem at hand.",
+            "user": "Alastair Beaumont - Web Developer at AppColony"
+        }]
+    },
+    "project": "https://gitlab.com/ashsometimes"
+}
